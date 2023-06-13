@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="popup.css">
+    <title>pop up</title>
+</head>
+<body>
+    <div class="container">
+        <div id="modelBox">
+        <img src="/assets/baby view.jpeg" alt="">
+        <div class="offert-text">
+            <h2>Happy new month!</h2>
+            <small>Our Favorite Braids</small>
+            <p>Knocless Braids</p>
+            <span>180$ Not a fixed Price</span>
+            <form>
+                <input type="text">
+                <button type="submit">Order Now</button>
+            </form>
+            
+        </div>
+        <div>
+            <img src="/assets/pop up.png" alt="close icon" class="close-icon" onclick="closeModel()">
+        </div>
+    </div>
+    </div>
+    
+    <script>
+    let modelBox = document.getElementById("modelBox");
+    document.onmouseleave = function(){
+        modelBox.style.display="block";
+    }
+    function closeModel(){
+        modelBox.style.display="none";
+
+    }
+    </script>
+</body>
+</html>

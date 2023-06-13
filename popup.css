@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'georgia', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(45deg, #4f639b, #fff);
+}
+
+
+/****popup css***/
+#modelBox{
+    margin-bottom: 30px;
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    display: none;
+}
+.offert-text{
+    padding: 20px 40px 40px 40px;
+    font-size: 14px;
+    line-height: 22px;
+}
+.offert-text h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.offert-text small{
+    display: inline-block;
+    color: #0746f6;
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.offert-text p{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: justify;
+    color: greenyellow;
+    margin-bottom: 30px;
+}
+
+.offert-text span{
+    color: blueviolet;
+    font-weight: 600;
+    font-size: 18px;
+}
+.offert-text form{
+    margin-top: 30px;
+    display: flex;
+    background: #efefef;
+    border-radius: 4px;
+}
+.offert-text form input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    padding: 12px 10px;
+}
+.offert-text form button{
+    border: 0;
+    height: 30px;
+    outline: 0;
+    cursor: pointer;
+    background-color: #ff2b4e;
+    color: #fff;
+    padding: 0 15px;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.close-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+    display:block;
+}
